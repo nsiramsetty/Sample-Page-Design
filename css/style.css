@@ -1,0 +1,218 @@
+@charset 'UTF-8';
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic');
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+/* Header Logo and Description */
+
+.logo-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo-image {
+    text-align: center;
+}
+.logo-description {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* Main Section Styles */
+
+.main-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-images {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-images img {
+    margin-bottom: 10px;
+}
+/* Project Heading */
+
+.project-heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.project-heading h1 {
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.project-heading h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.project-heading p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.project-heading .btn-lg {
+    border-radius: 0px;
+    border: 1px solid #FFFFFF;
+    background-color: #1A1A1A;
+}
+.project-heading .btn.focus,
+.project-heading .btn:focus,
+.project-heading .btn:hover {
+    color: #CCCCCC;
+    background-color: #000000;
+}
+/* Break out Area */
+
+.breakout {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.breakout h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1A1A1A;
+}
+.breakout p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1A1A1A;
+}
+.breakout hr {
+    display: block;
+    width: 60px;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #E6E6E6;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*Descriptive Images */
+
+.descriptive-images {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.descriptive-images img {
+    margin-bottom: 10px;
+}
+.descriptive-images h3 {
+    border-top: 1px solid #FFFFFF;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-align: right;
+}
+.descriptive-images p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #747474;
+    text-align: right;
+}
+/* Seperator Styles */
+
+.seperator {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.seperator hr {
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #747474;
+}
+/* More Projects Section */
+
+.more-projects {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.more-projects h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.more-projects h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #747474;
+}
+.more-projects h3 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.more-projects p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #747474;
+}
+/* Footer Styles */
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer hr {
+    text-align: center;
+    display: block;
+    width: 100px;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #747474;
+}
+.footer p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #747474;
+}
+/* Media Styles */
+
+@media (min-width: 992px) {
+    .logo-header {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .logo-image {
+        text-align: left;
+    }
+    .logo-description {
+        text-align: right;
+
+        height: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
